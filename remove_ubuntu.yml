@@ -1,0 +1,7 @@
+    - name: nginx 중지
+      service: name=nginx state=stopped
+
+    - name: nginx 삭제
+      action: "{{ ansible_pkg_mgr }} name=nginx state=absent autoremove=yes purge=yes"
+
+

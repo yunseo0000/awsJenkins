@@ -1,0 +1,13 @@
+[amazon]
+web1 ansible_host=172.31.5.111
+web2 ansible_host=172.31.12.62
+
+[ubuntu]
+ubuntu1 ansible_host=172.31.7.151 ansible_user=ubuntu
+ubuntu2 ansible_host=172.31.0.57 ansible_user=ubuntu
+
+[seoul]
+web1
+web2
+ubuntu1
+ubuntu2

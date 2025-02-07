@@ -1,0 +1,5 @@
+    - name: httpd 중지
+      service: name=httpd state=stopped
+
+    - name: httpd 삭제
+      action: "{{ ansible_pkg_mgr }} name=httpd state=absent"
